@@ -1,0 +1,69 @@
+body {
+    margin: o;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flexbox;
+    align-items: center;
+    background-color: orange;
+    padding: 15px 30px;
+    color: white;
+    font-size: large;
+}
+
+.logo {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+}
+
+.nav-links {
+    display: table-row;
+    gap: 20px;
+    color: white;
+    text-decoration: none;
+    text-decoration: none;
+
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hero button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background: light orange;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a:hover {
+    color: rgb(217, 0, 255);
+}
+
+.card {
+    display: block;
+    text-decoration: none;
+}
+
+.hero {
+    height: 100vh;
+    padding-top: 60px;
+}
